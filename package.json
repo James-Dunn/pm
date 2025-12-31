@@ -1,0 +1,27 @@
+{
+  "name": "polymarket-sample-client",
+  "version": "1.0.0",
+  "description": "Example Polymarket CLOB client for Node.js",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "NODE_ENV=development node src/index.js"
+  },
+  "keywords": [
+    "polymarket",
+    "clob",
+    "polygon",
+    "crypto",
+    "trading"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@polymarket/clob-client": "*",
+    "dotenv": "^16.4.5"
+  }
+}
